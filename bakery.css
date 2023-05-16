@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    padding: 100px 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/*----------------------------------------------------*/
+
+nav{
+    background-color: #ddd;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 100%;
+    position: fixed;
+}
+
+nav img{
+    width: 150px;
+    float: left;
+}
+
+nav .menu{
+    float: right;
+}
+
+nav .menu ul{
+    list-style: none;
+    padding: 0;  
+}
+
+nav .menu ul li{
+    display: inline-block;
+    margin: 0px 8px;
+    margin-top: 12px;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav .menu ul li a:hover{
+    color: grey;
+}
+
+/*----------------------------------------------------------*/
+
+.location{
+     background-color: #eee;
+
+}
+
+.location .text h2{
+margin-bottom: 20px;
+font-weight: normal;
+}
+
+.location .text p{
+    color: grey;
+    padding-right: 10px;
+}
+
+.location .text{
+    width: 49%;
+    float: left;
+    text-align: left;
+}
+
+.location .img-div{
+width: 49%;
+float: right;
+}
+
+.location .img-div img{
+    width: 80%;
+}
+
+/*----------------------------------------------------*/
+
+.baking .title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.baking .title h2{
+    margin-bottom: 10px;
+    
+}
+
+.baking .item{
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.baking .item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.baking .item h3{
+    margin-bottom: 10px;
+}
+/*----------------------------------------------------------*/
+
+main{
+    background-image: url(bakeryandsnacks_iqrmtz.jpg);
+    width: 100%;
+    height: 93vh;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    padding-top: 120px;
+}
+
+main .msg{
+   margin-top: 150px;
+}
+
+main .msg .welcome{
+font-size: 45px;
+text-transform: capitalize;
+}
+
+main .msg .title{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+main .msg .info{
+font-size: 20px;
+text-transform: capitalize;
+}
+
+main .btns{
+    margin-top: 30px;
+}
+
+main .btns .btn{
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+main .btns .learn{
+    background-color: #8e7754;
+    border-color: #8e7754;
+}
+
+main .btn .con{
+    background-color: transparent;
+    border-color: white;
+}
+main .btns .btn:hover{
+    background-color: palegoldenrod;
+    border-color: black;
+}
+
+main .ball{
+    margin-top: 50px;
+}
+
+main .ball a{
+    display: inline-block;
+    color: black;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 3px 10px;
+    font-size: 35px;
+    border-radius: 30px;
+}
+/*---------------------------------------------------------*/
+
+.whoweare{
+    background-color: white;
+
+}
+
+.whoweare .text h2{
+margin-bottom: 20px;
+font-weight: normal;
+}
+
+.whoweare .text p{
+   color: grey;
+   padding-right: 10px;
+}
+
+.whoweare .text{
+   width: 49%;
+   float: right;
+}
+
+.whoweare .img-div{
+width: 49%;
+float: left;
+}
+
+.whoweare .img-div img{
+   width: 80%;
+}
+
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.float{
+    float: left;
+}
+/*---------------------------------------------------*/
+.silver{
+    border-color: white;
+}
+/*---------------------------------------------------*/
+.gold{
+    background-color: #8e7754;
+    border-color: #8e7754;
+}
+
+/*---------------------------------------------------*/
+.contact{
+    background-color: #eee;
+}
+
+.contact .text{
+    width: 49%;
+    float: left;
+}
+
+.contact .img-div{
+    width: 49%;
+    float: right;
+}
+
+.contact .text h2{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.contact .text p{
+    color: grey;
+    padding-right: 10px;
+}
+
+.contact .text .list{
+    margin-top: 40px;
+}
+
+.contact .text .list div{
+    margin-bottom: 10px;
+}
+
+.contact .text .list div .float{
+    float: left;
+}
+
+.contact .text .list div .p{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/*----------------------------------------------------*/
+
+footer .top{
+background-color: #403d38;
+color: white;
+padding: 50px 0;
+}
+
+footer .top .top-div{
+    width: 22%;
+    float: left;
+    padding-right: 20px;
+}
+
+footer .top .top-div h4{
+font-size: 20px;
+margin-bottom: 24px;
+}
+
+footer .top .top-div p{
+color: grey;
+margin: 10px 0;
+}
+
+footer .down{
+    background-color: #353330;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer .down p{
+    margin: 20px 0;
+    color: grey;
+}
+
+footer .down .circles .circle{
+    background-color: #484540;
+    margin: 20px 0;
+}
+
+
+footer .down .circles .blue:hover{
+    background: black;
+ }
+footer .down .circles .red:hover{
+        background: black;
+}
+ footer .down .circles .yellow:hover{
+            background: black;
+}
+footer .down .circles .black:hover:hover{
+                background: black;
+ }
